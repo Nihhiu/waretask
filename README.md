@@ -3,8 +3,7 @@
 ## Color Pallet (CSS)
 
 Color pallet for the website(CSS) is:
-#1F2421 - (Eerie Black)
-#216869 - (Caribbean Current)
-#49A078 - (Jungle Green)
-#DCE1DE - (Platinum)
-
+<p>#1F2421 - (Eerie Black)</p>
+<p>#216869 - (Caribbean Current)</p>
+<p>#49A078 - (Jungle Green)</p>
+<p>#DCE1DE - (Platinum)</p>
