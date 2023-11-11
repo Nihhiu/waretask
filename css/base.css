@@ -1,0 +1,17 @@
+.alt-font {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    color: #707070;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+}
+
+.no-margin {
+    margin: 0 !important; 
+}
