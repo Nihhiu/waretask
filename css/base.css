@@ -10,8 +10,5 @@ body {
     color: #707070;
     line-height: 22px;
     letter-spacing: 0.01em;
-}
-
-.no-margin {
-    margin: 0 !important; 
+    background-color: #FFFFFF;
 }

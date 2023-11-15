@@ -1,57 +1,32 @@
-
-
-/* HEADER */
-.navbar.shrink-nav.shrink {
-    padding: 11px 0;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-.shrink-transparent-header-dark.shrink {
-    background: #1F2421 !important;
-}
-.navbar.shrink-nav {
-    position: fixed !important;
-    top: 0;
-}
-.navbar {
-    padding: 20px 0 20px;
-    z-index: 999;
-    width: 100%;
-    border-radius: 0;
-    border: 0;
+.jungle-green-text {
+    color: #49A078 !important;
 }
 
-.navbar img {
-    max-height: 75px;
+.caribbean-current-text {
+    color: #216869 !important;
 }
 
-.navbar li a {
-    font-size: 12px;
-    padding: 0;
-    cursor: pointer !important;
-    border-bottom: 1px solid transparent;
+.eerie-black-text {
+    color: #1F2421 !important;
 }
 
-.header-style9 .full-header {
-    padding: 0 40px;
+.platinum-text {
+    color: #DCE1DE !important;
 }
 
-header .row {
-    align-items: center;
-    display: flex;
-    height: auto;
-}
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
+.jungle-green-button {
+    background-color: #49A078; /* Darken the color further */
+    border-color: #49A078; /* Darken the color further */
 }
 
-/* FONTES */
-.xs-section-title-large{
-    font-size: 25px !important;
-    line-height: 25px !important;
+.jungle-green-button:hover {
+    background-color: #2b5c52; /* Darken the color */
+    border-color: #2b5c52; /* Darken the color */
 }
 
-.Grupo img{
-    max-height: 350px; 
-    position: absolute;
+.jungle-green-button:active {
+    background-color: #49A078; /* Darken the color further */
+    border-color: #49A078; /* Darken the color further */
 }
+
+
