@@ -12,3 +12,15 @@ body {
     letter-spacing: 0.01em;
     background-color: #FFFFFF;
 }
+
+.white-text {
+    color: white !important;
+}
+
+.black-text {
+    color: black !important;
+}
+
+.bold-text{
+    font-weight: bold;
+}

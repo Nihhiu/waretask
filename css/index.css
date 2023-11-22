@@ -14,19 +14,16 @@
     color: #DCE1DE !important;
 }
 
-.jungle-green-button {
-    background-color: #49A078; /* Darken the color further */
-    border-color: #49A078; /* Darken the color further */
+
+.btn-outline-secondary {
+    float: right;
+  }
+
+  .caribbean-current-container{
+    background-color: #216869;
+    padding: 100px;
 }
 
-.jungle-green-button:hover {
-    background-color: #2b5c52; /* Darken the color */
-    border-color: #2b5c52; /* Darken the color */
+.space {
+    padding: 100px;
 }
-
-.jungle-green-button:active {
-    background-color: #49A078; /* Darken the color further */
-    border-color: #49A078; /* Darken the color further */
-}
-
-
