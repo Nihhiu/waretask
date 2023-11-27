@@ -15,23 +15,35 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-
+<!-- HEADER -->
     <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <p style="font-weight: 700; font-size: 24px;"><img src="images/Logo.png" alt="logo" width="100" height="100" style="margin-left: 80px;">  WareTask</p>
-          </a>
+        <div class="container container-color">
+            <a class="navbar-brand" href="#">
+                <p style="font-weight: 700; font-size: 24px;"><img src="images/Logo.png" alt="logo" width="100" height="100" style="margin-left: 80px;">  WareTask</p>
+            </a>
         </div>
+
         <div class="align-content-end">
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>       
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>       
         </div> 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <a href="#" class="btn btn-outline-secondary shadow-sm d-sm d-block">Try for free</a>
-          </div>
-      </nav>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="btn btn-outline-secondary shadow-sm d-sm d-block nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-secondary shadow-sm d-sm d-block nav-link" href="#">Sign up</a>
+                </li>
+            </ul>
+        </div> 
+    </nav>
+
+
+<!-- CONTENT -->
 
     <div class="container mt-5 caribbean-current-container">
         <div class="row">
@@ -42,7 +54,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="images/Office.jpg" alt="office" class="img-fluid">
+                <img src="images/gestao.png" alt="office" class="img-fluid">
             </div>
         </div>
     </div>
@@ -102,7 +114,7 @@
                     <div class="card-body text-center">
                         <i class="bi bi-arrow-up-right-square fs-1 text-primary"></i>
                         <h5 class="card-title mt-3">Sérgio Gabriel</h5>
-                        <img src="images/Office.jpg" alt="office" class="img-fluid">
+                        <img src="images/Gabriel.png" alt="office" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -111,12 +123,36 @@
                     <div class="card-body text-center">
                         <i class="bi bi-arrow-up-right-square fs-1 text-primary"></i>
                         <h5 class="card-title mt-3">Carlos Veloso</h5>
-                        <img src="images/Office.jpg" alt="office" class="img-fluid">
+                        <img src="images/carlos.jpg" alt="office" class="img-fluid">
                     </div>
                 </div>
             </div>
         </div>
     </div>     
+
+    <!-- FOOTER -->
+
+    <!-- FOOTER -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Contact Us</h4>
+                    <p>Email: info@waretask.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Follow Us</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-secondary">Facebook</a></li>
+                        <li><a href="#" class="text-secondary">Twitter</a></li>
+                        <li><a href="#" class="text-secondary">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
 </body>
 </html>
