@@ -20,10 +20,20 @@
     background-color: #DCE1DE;
   }
 
-  .caribbean-current-container{
+.caribbean-current-container {
     background-color: #216869;
-    padding: 100px;
 }
+
+.caribbean-current-container > .row {
+    margin-right: 0; /* Remove the default margin on the right side of the row */
+    margin-left: 0;  /* Remove the default margin on the left side of the row */
+}
+
+.caribbean-current-container > .row > div {
+    padding-right: 0; /* Remove padding on the right side of each column */
+    padding-left: 0;  /* Remove padding on the left side of each column */
+}
+
 
 .space {
     padding: 100px;
@@ -31,5 +41,15 @@
 
 .footer {
     background-color: #1F2421;
-    color: #fff
+    color: #fff;
+    padding: 50px;
+}
+
+.nav-item {
+    margin-right: 10px; /* Adjust the margin-right value to your preference */
+}
+
+.team-member-image {
+    height: 500px;
+    width: auto; 
 }
