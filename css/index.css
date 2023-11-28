@@ -17,6 +17,7 @@
 
 .btn-outline-secondary {
     float: right;
+    background-color: #DCE1DE;
   }
 
   .caribbean-current-container{
@@ -26,4 +27,9 @@
 
 .space {
     padding: 100px;
+}
+
+.footer {
+    background-color: #1F2421;
+    color: #fff
 }

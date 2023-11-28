@@ -10,8 +10,18 @@ body {
     color: #707070;
     line-height: 22px;
     letter-spacing: 0.01em;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
+
+.btn-outline-secondary {
+    color: black;
+    border-color: black;
+  }
+  
+  .btn {
+    font-size: 13px;
+    padding: 10px 10px;
+  }
 
 .white-text {
     color: white !important;
@@ -24,3 +34,7 @@ body {
 .bold-text{
     font-weight: bold;
 }
+
+
+
+
